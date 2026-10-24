@@ -53,7 +53,9 @@ const initials = profile.name
     .slice(0, 2)
     .toUpperCase();
 
-$("#logo").textContent = initials;
+$("#logo").innerHTML = `
+  <img src="${profile.image}" alt="${profile.name}" class="logo-picture">
+`;
 
 // The photo comes from data.js (profile.photo) and is always cropped to the circle.
 $("#avatar").innerHTML = `
