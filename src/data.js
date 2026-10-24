@@ -9,7 +9,7 @@ export const profile = {
     location: "Cagayan, Philippines",
     // Tip: before you deploy, move the picture into the public/ folder,
     // rename it to profile.jpg, and change this to "/profile.jpg".
-    photo: "/src/images/profile.jpg.jpg",
+    image: "/images/profile.jpg",
     links: [
         {
             label: "Email",
