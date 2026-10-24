@@ -59,9 +59,9 @@ $("#logo").textContent = initials;
 $("#avatar").innerHTML = `
   <div class="avatar-inner">
     ${
-    profile.photo
+    profile.image
         ? `<img
-  src="${profile.photo}"
+  src="${profile.image}"
   alt="${profile.name}"
   class="profile-picture"
 />`
