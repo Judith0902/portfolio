@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f7ec" />
+    <meta name="description" content="Judith D. Arellano — Computer Engineering portfolio" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <title>Judith D. Arellano | Portfolio</title>
+</head>
+<body>
+<div class="bg-layer" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+</div>
+
+<header class="site-header">
+    <div class="nav-wrap">
+        <a href="#home" class="logo" id="logo" aria-label="Go to home">JA</a>
+
+        <nav class="nav glass" aria-label="Main navigation">
+            <a href="#home" data-nav="home" class="nav-btn">Home</a>
+            <a href="#about" data-nav="about" class="nav-btn">About</a>
+            <a href="#projects" data-nav="projects" class="nav-btn">Projects</a>
+            <a href="#certificates" data-nav="certificates" class="nav-btn">Certificates</a>
+            <a href="#seminars" data-nav="seminars" class="nav-btn">Seminars</a>
+            <a href="#contact" data-nav="contact" class="nav-btn">Contact</a>
+        </nav>
+
+        <span class="nav-status">
+      <span class="dot"></span> PORTFOLIO / 2026
+    </span>
+    </div>
+</header>
+
+<main class="main-shell">
+    <!-- HOME -->
+    <section id="view-home" class="view">
+        <div class="hero-grid">
+            <div class="hero-copy">
+        <span class="chip reveal" style="--i:0">
+          <span class="dot"></span><span id="badge"></span>
+        </span>
+
+                <p class="eyebrow reveal" style="--i:1">COMPUTER ENGINEERING · PORTFOLIO</p>
+
+                <h1 id="name" class="hero-title reveal" style="--i:2"></h1>
+                <p id="title" class="hero-subtitle reveal" style="--i:3"></p>
+                <p id="tagline" class="hero-description reveal" style="--i:4"></p>
+
+                <div class="hero-actions reveal" style="--i:5">
+                    <a href="#projects" class="btn-primary">Explore projects <span aria-hidden="true">↗</span></a>
+                    <a href="#contact" class="btn-ghost">Get in touch <span aria-hidden="true">→</span></a>
+                </div>
+
+                <div class="hero-note reveal" style="--i:6">
+                    <span class="note-line"></span>
+                    <span>Curiosity in design. Precision in engineering.</span>
+                </div>
+            </div>
+
+            <div class="hero-side reveal" style="--i:3">
+                <div class="profile-card glass">
+                    <div class="card-topline">
+                        <span>PROFILE /</span>
+                        <span class="live-indicator"></span>
+                    </div>
+
+                    <div id="avatar" class="avatar"></div>
+                    <div class="profile-rule"></div>
+                    <p id="school-line" class="school-line"></p>
+                    <p id="location" class="location-line"></p>
+
+                    <div class="profile-bottom">
+                        <span>STUDENT ENGINEER</span>
+                        <span>PH · 2026</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="stats" class="stats-grid"></div>
+
+        <div class="home-bottom-grid">
+            <article class="glass mini-panel">
+                <span class="eyebrow">CURRENT FOCUS</span>
+                <h3>Hardware meets software.</h3>
+                <p>Exploring practical engineering through sensors, embedded systems, automation, and connected tools.</p>
+            </article>
+
+            <article class="glass mini-panel mini-panel-accent">
+                <span class="eyebrow">PERSONAL PRINCIPLE</span>
+                <h3>Learn. Build. Iterate.</h3>
+                <p>Every project is an opportunity to strengthen technical skills and create something useful.</p>
+                <span class="mini-mark">JA / 2026</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="view-about" class="view">
+        <div class="page-heading">
+            <p class="eyebrow reveal" style="--i:0">01 — THE PERSON BEHIND THE PROJECTS</p>
+            <h2 class="section-title reveal" style="--i:1">About <span>me.</span></h2>
+            <p id="about-long" class="section-intro reveal" style="--i:2"></p>
+        </div>
+
+        <div class="about-grid">
+            <article class="glass panel reveal" style="--i:3">
+                <div class="panel-heading">
+                    <span class="panel-index">A / 01</span>
+                    <h3>Education</h3>
+                </div>
+                <div id="education-list" class="education-list"></div>
+                <div class="education-note">
+                    <span class="dot"></span>
+                    Focused on steady progress and practical learning.
+                </div>
+            </article>
+
+            <article class="glass panel reveal" style="--i:4">
+                <div class="panel-heading">
+                    <span class="panel-index">A / 02</span>
+                    <h3>Technical skills</h3>
+                </div>
+                <div id="skills-list" class="skills-list"></div>
+            </article>
+        </div>
+
+        <div class="glass values-strip reveal" style="--i:5">
+            <span class="eyebrow">WHAT I BRING</span>
+            <div class="value-pills">
+                <span>Problem solving</span>
+                <span>Team collaboration</span>
+                <span>Adaptability</span>
+                <span>Continuous learning</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="view-projects" class="view">
+        <div class="page-heading">
+            <p class="eyebrow reveal" style="--i:0">02 — SELECTED WORK / BUILD LOG</p>
+            <h2 class="section-title reveal" style="--i:1">Projects<span>.</span></h2>
+            <p class="section-intro reveal" style="--i:2">
+                Academic projects that connect engineering concepts with real-world needs.
+            </p>
+        </div>
+
+        <div id="projects-list" class="projects-grid"></div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="view-certificates" class="view">
+        <div class="page-heading">
+            <p class="eyebrow reveal" style="--i:0">03 — CREDENTIALS / PROFESSIONAL DEVELOPMENT</p>
+            <h2 class="section-title reveal" style="--i:1">Certificates<span>.</span></h2>
+            <p class="section-intro reveal" style="--i:2">
+                Training, qualifications, and milestones supporting my academic journey.
+            </p>
+        </div>
+
+        <div class="credential-banner glass reveal" style="--i:3">
+            <div class="credential-icon">✳</div>
+            <div>
+                <span class="eyebrow">SAFETY & PROFESSIONAL READINESS</span>
+                <h3>Learning beyond the classroom.</h3>
+                <p>Each credential represents another step toward becoming a well-rounded engineer.</p>
+            </div>
+            <span class="credential-count" id="credential-count">02</span>
+        </div>
+
+        <div id="certs-list" class="certs-grid"></div>
+    </section>
+
+    <!-- SEMINARS -->
+    <section id="view-seminars" class="view">
+        <div class="page-heading">
+            <p class="eyebrow reveal" style="--i:0">04 — CONTINUOUS LEARNING / KNOWLEDGE LOG</p>
+            <h2 class="section-title reveal" style="--i:1">Seminars &amp; <span>trainings.</span></h2>
+            <p class="section-intro reveal" style="--i:2">
+                A snapshot of topics explored across engineering, AI, energy systems, research, and cybersecurity.
+            </p>
+        </div>
+
+        <div id="seminar-chart" class="glass chart-panel reveal" style="--i:3"></div>
+
+        <div class="seminar-tools reveal" style="--i:4">
+            <div id="seminar-filters" class="filter-row"></div>
+            <p id="seminar-count" class="text-muted"></p>
+        </div>
+
+        <ul id="seminar-list" class="seminar-list"></ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="view-contact" class="view">
+        <div class="contact-layout">
+            <div>
+                <p class="eyebrow reveal" style="--i:0">05 — OPEN CHANNEL</p>
+                <h2 class="section-title reveal" style="--i:1">
+                    Let's build<br><span>something useful.</span>
+                </h2>
+                <p class="section-intro reveal" style="--i:2">
+                    Open to learning opportunities, internships, collaborations, and engineering projects.
+                    Reach out through the contact details below.
+                </p>
+
+                <div class="contact-code reveal" style="--i:3">
+                    <span>STATUS</span>
+                    <span class="status-pill"><span class="dot"></span> OPEN TO OPPORTUNITIES</span>
+                </div>
+            </div>
+
+            <div id="links" class="contact-links"></div>
+        </div>
+
+        <div class="contact-decoration" aria-hidden="true">
+            LET'S CONNECT <span>↗</span>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <span>© <span id="year"></span> <span id="footer-name"></span></span>
+    <span><span class="footer-cross">✳</span></span>
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
